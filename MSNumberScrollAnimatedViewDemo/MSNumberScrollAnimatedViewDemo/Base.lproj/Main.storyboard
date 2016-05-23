@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTp-IX-InQ" customClass="MSNumberScrollAnimatedView">
+                                <rect key="frame" x="60" y="64" width="480" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="QgZ-Yu-upA"/>
+                                    <constraint firstAttribute="width" constant="240" id="bqb-Nk-CFE"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="bqb-Nk-CFE"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFG-nk-je3">
+                                <rect key="frame" x="230" y="280" width="140" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="4Pc-mf-9gd"/>
+                                    <constraint firstAttribute="height" constant="40" id="vZd-wu-6PD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="startAnimation"/>
+                                <connections>
+                                    <action selector="startAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aiw-Q7-532"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UFG-nk-je3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5dp-eD-egJ"/>
+                            <constraint firstAttribute="trailing" secondItem="fTp-IX-InQ" secondAttribute="trailing" constant="60" id="YIE-EX-3Iv"/>
+                            <constraint firstItem="fTp-IX-InQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="d5z-ZT-jO3"/>
+                            <constraint firstItem="fTp-IX-InQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="oMM-3q-fgI"/>
+                            <constraint firstItem="fTp-IX-InQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qIA-lB-KXO"/>
+                            <constraint firstItem="UFG-nk-je3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ss5-Wj-mRQ"/>
+                            <constraint firstItem="fTp-IX-InQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zbP-km-PT0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="qIA-lB-KXO"/>
+                                <exclude reference="zbP-km-PT0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="numberAnimatedV" destination="fTp-IX-InQ" id="Ba1-kp-Bhl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
