@@ -18,9 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTp-IX-InQ" customClass="MSNumberScrollAnimatedView">
-                                <rect key="frame" x="60" y="64" width="480" height="80"/>
+                                <rect key="frame" x="160" y="35" width="280" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="QgZ-Yu-upA"/>
+                                    <constraint firstAttribute="width" constant="280" id="4Fd-9p-bBg"/>
+                                    <constraint firstAttribute="height" constant="100" id="QgZ-Yu-upA"/>
                                     <constraint firstAttribute="width" constant="240" id="bqb-Nk-CFE"/>
                                 </constraints>
                                 <variation key="default">
@@ -46,14 +47,17 @@
                         <constraints>
                             <constraint firstItem="UFG-nk-je3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5dp-eD-egJ"/>
                             <constraint firstAttribute="trailing" secondItem="fTp-IX-InQ" secondAttribute="trailing" constant="60" id="YIE-EX-3Iv"/>
+                            <constraint firstItem="fTp-IX-InQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aHo-ke-8nZ"/>
                             <constraint firstItem="fTp-IX-InQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="d5z-ZT-jO3"/>
-                            <constraint firstItem="fTp-IX-InQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="oMM-3q-fgI"/>
+                            <constraint firstItem="fTp-IX-InQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="oMM-3q-fgI"/>
                             <constraint firstItem="fTp-IX-InQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qIA-lB-KXO"/>
                             <constraint firstItem="UFG-nk-je3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ss5-Wj-mRQ"/>
                             <constraint firstItem="fTp-IX-InQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zbP-km-PT0"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="YIE-EX-3Iv"/>
+                                <exclude reference="d5z-ZT-jO3"/>
                                 <exclude reference="qIA-lB-KXO"/>
                                 <exclude reference="zbP-km-PT0"/>
                             </mask>
