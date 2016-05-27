@@ -21,6 +21,7 @@
 @property (nonatomic, assign) NSUInteger minLength;             // 最小显示长度，不够补零
 @property (nonatomic, assign) BOOL isAscending;                 // 方向，默认为NO，向上
 
+- (void)reloadView;
 - (void)startAnimation;
 - (void)stopAnimation;
 

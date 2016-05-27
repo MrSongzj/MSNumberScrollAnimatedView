@@ -14,13 +14,15 @@
 // 样式相关
 @property (nonatomic, strong) UIColor *textColor;
 @property (nonatomic, strong) UIFont *font;
-// 动画相关
+@property (nonatomic, assign) NSUInteger minLength;             // 最小显示长度，不够补零
+@property (nonatomic, assign) NSUInteger density;               // 滚动数字的密度
+
+// 动画效果相关
 @property (nonatomic, assign) NSTimeInterval duration;          // 动画总持续时间
 @property (nonatomic, assign) NSTimeInterval durationOffset;    // 相邻两个数字动画持续时间间隔
-@property (nonatomic, assign) NSUInteger density;               // 滚动数字的密度
-@property (nonatomic, assign) NSUInteger minLength;             // 最小显示长度，不够补零
-@property (nonatomic, assign) BOOL isAscending;                 // 方向，默认为NO，向上
+@property (nonatomic, assign) BOOL isAscending;                 // 滚动方向，默认为NO，向上
 
+- (void)reloadView;
 - (void)startAnimation;
 - (void)stopAnimation;
 

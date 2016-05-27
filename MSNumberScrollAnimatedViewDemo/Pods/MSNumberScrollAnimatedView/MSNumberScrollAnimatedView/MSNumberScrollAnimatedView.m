@@ -43,6 +43,11 @@
 
 #pragma mark - Public Methods
 
+- (void)reloadView
+{
+    [self prepareAnimations];
+}
+
 - (void)startAnimation
 {
     [self createAnimations];

@@ -23,20 +23,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>045FCD3A792538874005BFD233DC1B58</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AAB0F7A9EAA13725E2BE3F4BB7F05FF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>052A17875CB827423D627183396CEB60</key>
 		<dict>
 			<key>buildSettings</key>
@@ -105,19 +91,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>057B02F169737EA59D50E1B162E041E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>MSNumberScrollAnimatedView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>0B97014690F1F0A501878D518D3CCE1E</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -178,6 +151,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>163D867A8E6B6275E4F4BED13D685003</key>
+		<dict>
+			<key>fileRef</key>
+			<string>266B70B207EAA4B4F8ABD674FE0554CE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>183FB010F99CEA461EF4CEFCB34A5A9D</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -191,6 +171,35 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>21BB4B2B6129AA0562D27F4B5021B7E2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B478C7304D7BAEA0EA50E98C5170360F</string>
+				<string>3109410492EEB14A286B7AD9F02F2C71</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MSNumberScrollAnimatedView</string>
+			<key>path</key>
+			<string>MSNumberScrollAnimatedView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>266B70B207EAA4B4F8ABD674FE0554CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MSNumberScrollAnimatedView-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>272643F56613CA0D336AE3DBF19DC404</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -203,13 +212,6 @@
 			<string>Pods-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C3B907B96610A2707C2F24C39A51BBC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CB1DFE3099C3F39175C413740F281F82</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -225,10 +227,23 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>3109410492EEB14A286B7AD9F02F2C71</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MSNumberScrollAnimatedView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>33A41EA1BB48198BFC63F9A0E2135274</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>057B02F169737EA59D50E1B162E041E2</string>
+			<string>C1CB36235B806952DBC9310A4E8F315E</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -298,13 +313,26 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>42D9A3E8DADAEF384B07695D0F7735E3</key>
+		<key>4BF6BB653FBF94D273CFE5502900EED9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MSNumberScrollAnimatedView-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4C26D19F1F0085C00EC960263363C1EF</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>045FCD3A792538874005BFD233DC1B58</string>
+				<string>F4B2392DD67B6B4628691D4A327524FE</string>
 			</array>
 			<key>isa</key>
 			<string>PBXHeadersBuildPhase</string>
@@ -324,15 +352,48 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>4EB3B05B41701AD669343190F6785FF2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C1CB36235B806952DBC9310A4E8F315E</string>
+				<string>266B70B207EAA4B4F8ABD674FE0554CE</string>
+				<string>4BF6BB653FBF94D273CFE5502900EED9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>MSNumberScrollAnimatedViewDemo/Pods/Target Support Files/MSNumberScrollAnimatedView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5C47FA1A84614C3DF7A26C36BA1FFEC9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>21BB4B2B6129AA0562D27F4B5021B7E2</string>
+				<string>4EB3B05B41701AD669343190F6785FF2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MSNumberScrollAnimatedView</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>5D8C7800D9B4CF16CBB44FB66F011166</key>
 		<dict>
 			<key>buildConfigurationList</key>
 			<string>E08F215F7F4CA5C34142B91F09E8BE25</string>
 			<key>buildPhases</key>
 			<array>
-				<string>E60B527C7EB8C34483A1D210E6E5223D</string>
+				<string>B50682442BFF857C34763D3AC0530813</string>
 				<string>183FB010F99CEA461EF4CEFCB34A5A9D</string>
-				<string>42D9A3E8DADAEF384B07695D0F7735E3</string>
+				<string>4C26D19F1F0085C00EC960263363C1EF</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -362,13 +423,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>65F637A6F660AC3D990F059C18E59BF1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2EE73421AF7908EB28D249772B7A181</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>6911BECA35E7518D864239B7E898EEF3</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -385,7 +439,7 @@
 		<key>714CBB8BF697D54CC6C973B4202A8EDC</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>057B02F169737EA59D50E1B162E041E2</string>
+			<string>C1CB36235B806952DBC9310A4E8F315E</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -416,31 +470,31 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>727DC0B1F562415D087A28893467FCCA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5C47FA1A84614C3DF7A26C36BA1FFEC9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>727DC0B1F562415D087A28893467FCCA</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>DB3FBE8FBAA4BCFB95E43C260486AD2B</string>
 				<string>1619244BD37093EA65117CBB57E7636C</string>
 				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F42A3D7C98C126DCDC41D41762994C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MSNumberScrollAnimatedView-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -505,6 +559,13 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>91C92096A81A0A14F8440B7A440906D8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3109410492EEB14A286B7AD9F02F2C71</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -515,23 +576,6 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A66EF479EFFAE423FC5CAADA5B08D99</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AAB0F7A9EAA13725E2BE3F4BB7F05FF4</string>
-				<string>CB1DFE3099C3F39175C413740F281F82</string>
-				<string>F9AB08673784AABEEDE67D9DF5E76B97</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MSNumberScrollAnimatedView</string>
-			<key>path</key>
-			<string>MSNumberScrollAnimatedView</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -558,21 +602,6 @@
 			<string>5D8C7800D9B4CF16CBB44FB66F011166</string>
 			<key>targetProxy</key>
 			<string>33E1A25A5754C6B2DD5FC931B48C0F4C</string>
-		</dict>
-		<key>AAB0F7A9EAA13725E2BE3F4BB7F05FF4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MSNumberScrollAnimatedView.h</string>
-			<key>path</key>
-			<string>MSNumberScrollAnimatedView/MSNumberScrollAnimatedView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B37F0F91F85060E28F1DAAB522DC7EC1</key>
 		<dict>
@@ -668,6 +697,33 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>B478C7304D7BAEA0EA50E98C5170360F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MSNumberScrollAnimatedView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B50682442BFF857C34763D3AC0530813</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>163D867A8E6B6275E4F4BED13D685003</string>
+				<string>91C92096A81A0A14F8440B7A440906D8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>B68FF68352240B7042800DC8C1EFAAE5</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -743,18 +799,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CB1DFE3099C3F39175C413740F281F82</key>
+		<key>C1CB36235B806952DBC9310A4E8F315E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MSNumberScrollAnimatedView.m</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>MSNumberScrollAnimatedView/MSNumberScrollAnimatedView.m</string>
+			<string>MSNumberScrollAnimatedView.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -812,19 +866,6 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>DB3FBE8FBAA4BCFB95E43C260486AD2B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9A66EF479EFFAE423FC5CAADA5B08D99</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>DDEE3AF5EEB111102CDEB38B64DC2B5F</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -852,49 +893,19 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>E2EE73421AF7908EB28D249772B7A181</key>
+		<key>F4B2392DD67B6B4628691D4A327524FE</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>B478C7304D7BAEA0EA50E98C5170360F</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MSNumberScrollAnimatedView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E60B527C7EB8C34483A1D210E6E5223D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>65F637A6F660AC3D990F059C18E59BF1</string>
-				<string>2C3B907B96610A2707C2F24C39A51BBC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F9AB08673784AABEEDE67D9DF5E76B97</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>057B02F169737EA59D50E1B162E041E2</string>
-				<string>E2EE73421AF7908EB28D249772B7A181</string>
-				<string>7F42A3D7C98C126DCDC41D41762994C0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/MSNumberScrollAnimatedView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>FDE55EF515206FBC74C009A9C16ABF39</key>
 		<dict>
