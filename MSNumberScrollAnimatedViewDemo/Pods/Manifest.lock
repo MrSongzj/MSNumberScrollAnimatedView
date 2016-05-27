@@ -1,0 +1,10 @@
+PODS:
+  - MSNumberScrollAnimatedView (0.0.1)
+
+DEPENDENCIES:
+  - MSNumberScrollAnimatedView (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  MSNumberScrollAnimatedView: 9ba589beb17ff70629f24c7a039c6b351cc6aaaa
+
+COCOAPODS: 0.39.0
