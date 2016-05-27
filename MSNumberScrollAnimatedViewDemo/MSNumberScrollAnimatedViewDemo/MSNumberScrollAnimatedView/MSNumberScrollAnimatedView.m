@@ -125,7 +125,7 @@
     NSMutableArray *scrollNumbers = [NSMutableArray array];
     // 添加要滚动的数字
     for (NSUInteger i = 0; i < self.density + 1; i++) {
-        [scrollNumbers addObject:[NSString stringWithFormat:@"%ld", (number+i) % 10]];
+        [scrollNumbers addObject:[NSString stringWithFormat:@"%lu", (number+i) % 10]];
     }
     [scrollNumbers addObject:numberText];
     // 创建 scrollLayer 的内容，数字降序排序
