@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.numberAnimatedV.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:42];;
+    self.numberAnimatedV.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:42];
     self.numberAnimatedV.textColor = [UIColor whiteColor];
     self.numberAnimatedV.minLength = 3;
 }
